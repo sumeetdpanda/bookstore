@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import BackButton from "../components/BackButton";
 import Spinner from "../components/Spinner";
 
-const CreateBooks = () => {
+const CreateBook = () => {
   const [title, setTitle] = useState("");
   const [author, setAuthor] = useState("");
   const [publisherYear, setPublishYear] = useState("");
@@ -67,4 +67,4 @@ const CreateBooks = () => {
   );
 };
 
-export default CreateBooks;
+export default CreateBook;
